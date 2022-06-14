@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_project_contents",
+  "info": {
+    "displayName": "Content Text",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext"
+    }
+  }
+}

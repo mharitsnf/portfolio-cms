@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_content_medias",
+  "info": {
+    "displayName": "Content Media",
+    "icon": "camera",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
