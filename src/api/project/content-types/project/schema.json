@@ -15,17 +15,22 @@
     "Title": {
       "type": "string"
     },
-    "Contents": {
-      "type": "dynamiczone",
-      "components": [
-        "project.content",
-        "project.content-media"
-      ]
+    "MainMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.content-media"
     },
     "Links": {
       "type": "component",
       "repeatable": true,
       "component": "project.link"
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "project.content-media",
+        "project.content"
+      ]
     }
   }
 }
